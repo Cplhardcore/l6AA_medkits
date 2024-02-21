@@ -33,7 +33,7 @@ class CfgWeapons
 	{
 		scope=2;
 		author="A/Cpl Z Smith and 4 Rifles Milsim";
-		picture="z\l6AA\addons\medkits\data\EAK.paa";
+		picture="z\l6AA\addons\medkits\data\EAK";
 		displayName="Surgical Fractures Kit";
 		descriptionShort="This is a Complex Fracture treatment kit. Contains: 1x Scalpel, 1x Retractor, 1x Bone Plate, 1x Clamp, 1x Saline 250mL, 1x Set of Surgery drugs.";
 		descriptionUse="";
@@ -46,7 +46,7 @@ class CfgWeapons
 	{
 		scope=2;
 		author="A/Cpl Z Smith and 4 Rifles Milsim";
-		picture="z\l6AA\addons\medkits\data\EAK.paa";
+		picture="z\l6AA\addons\medkits\data\EAK";
 		displayName="Transfusion Kit";
 		descriptionShort="This is a Transfusion Kit for CMTs. Contains: 1x 16g IV, 1x FAST IO, 1x Plasma 500ml, 2x Saline 1000ml, 1x Nitroglycerin";
 		descriptionUse="";
@@ -59,7 +59,7 @@ class CfgWeapons
 	{
 		scope=2;
 		author="A/Cpl Z Smith and 4 Rifles Milsim";
-		picture="z\l6AA\addons\medkits\data\EAK.paa";
+		picture="z\l6AA\addons\medkits\data\EAK";
 		displayName="CTM Drug Resupply Kit";
 		descriptionShort="This is a resupply kit for CTMs. Contains: 2x Epi, 2x Morphine, 2x Naloxone, 1x Painkillers, 1x Penthrox Inhaler";
 		descriptionUse="";
@@ -85,7 +85,7 @@ class CfgWeapons
 	{
 		scope=2;
 		author="A/Cpl Z Smith and 4 Rifles Milsim";
-		picture="z\l6AA\addons\medkits\data\EAK.paa";
+		picture="z\l6AA\addons\medkits\data\EAK";
 		displayName="CMT Drug Resupply Kit";
 		descriptionShort="This is a resupply kit for CMTs. Contains: 3x TXA, 2x Epi, 3x Morphine. 2x Naloxone, 2x EACA, 2x Phenylephrine, 2x Lidocaine, 2x Adenosine, 3x Fentanyl, 1x Penthrox Inhaler, 1x Ammonium carbonate.";
 		descriptionUse="";
@@ -98,7 +98,7 @@ class CfgWeapons
 	{
 		scope=2;
 		author="A/Cpl Z Smith and 4 Rifles Milsim";
-		picture="z\l6AA\addons\medkits\data\EAK.paa";
+		picture="z\l6AA\addons\medkits\data\EAK";
 		displayName="CTM Medical Resupply Kit";
 		descriptionShort="This is a resupply kit for CTMs. Contains: 4x Geudel Tube, 2x SAM Splint, 2x Chest Seals, 2x NCD medkits,";
 		descriptionUse="";
@@ -111,7 +111,7 @@ class CfgWeapons
 	{
 		scope=2;
 		author="A/Cpl Z Smith and 4 Rifles Milsim";
-		picture="z\l6AA\addons\medkits\data\EAK.paa";
+		picture="z\l6AA\addons\medkits\data\EAK";
 		displayName="CMT Medical Resupply Kit";
 		descriptionShort="This is a resupply kit for CMTs. Contains: 4x King LT, 4x SAM Splint, 20x Sutures, 4x Chest Seals, 2x NCD medkits, 2x AAT medkits, and 1 Field Blood Transfusion Kit";
 		descriptionUse="";
@@ -124,7 +124,7 @@ class CfgWeapons
 	{
 		scope=2;
 		author="A/Cpl Z Smith and 4 Rifles Milsim";
-		picture="z\l6AA\addons\medkits\data\EAK.paa";
+		picture="z\l6AA\addons\medkits\data\EAK";
 		displayName="Bandage Resupply Kit";
 		descriptionShort="This is a resupply kit for bandages. Contains: 15x Packing, 15x Elastic, 15x QuickClots";
 		descriptionUse="";
@@ -137,7 +137,7 @@ class CfgWeapons
 	{
 		scope=2;
 		author="A/Cpl Z Smith and 4 Rifles Milsim";
-		picture="z\l6AA\addons\medkits\data\EAK.paa";
+		picture="z\l6AA\addons\medkits\data\EAK";
 		displayName="CAP Supplies Kit";
 		descriptionShort="For setting up a CAP";
 		descriptionUse="";

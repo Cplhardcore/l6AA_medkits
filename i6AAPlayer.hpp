@@ -17,7 +17,7 @@ class CfgVehicles {
 				{
 					displayName="Open Emergency Aid Kit";
 					condition="('l6AA_IFAK' in (items player))";
-					statement= QUOTE(call FUNC(IFAK));
+					statement="_player call FUNC(IFAK))";
 					icon="z\l6AA\addons\medkits\data\Medic_Pouch.paa";
 					exceptions[]=
 					{
@@ -28,70 +28,70 @@ class CfgVehicles {
 				{
 					displayName="Open Individual First Aid Kit";
 					condition="('l6AA_IFAK2' in (items player))";
-					statement= QUOTE(call FUNC(IFAK2));
+					statement="_player call FUNC(IFAK2))";
 					icon="z\l6AA\addons\medkits\data\ifak_interaction.paa";
 				};
 				class l6AA_open_Surgery : l6AA_open_ifak
 				{
 					displayName="Open Fracture Kit";
 					condition="([player, 2] call ace_medical_treatment_fnc_isMedic && 'l6AA_Surgery' in (items player))";
-					statement= QUOTE(call FUNC(Surgery));
+					statement="_player call FUNC(Surgery))";
 					icon="z\l6AA\addons\medkits\data\ifak_interaction.paa";
 				};
 				class l6AA_open_Transfusion : l6AA_open_ifak
 				{
 					displayName="Open Transfusion Kit";
 					condition="([player, 2] call ace_medical_treatment_fnc_isMedic && 'l6AA_Transfusion' in (items player))";
-					statement= QUOTE(call FUNC(Transfusion));
+					statement="_player call FUNC(Transfusion))";
 					icon="z\l6AA\addons\medkits\data\ifak_interaction.paa";
 				};
 				class l6AA_open_MASCAS : l6AA_open_ifak
 				{
 					displayName="Deploy MASCAS Kit";
 					condition="('l6AA_MASCAS' in (items player))";
-					statement= QUOTE(call FUNC(MASCAS));
+					statement="_player call FUNC(MASCAS))";
 					icon="z\l6AA\addons\medkits\data\MASCAS.paa";
 				};
 				class l6AA_open_DRUGS : l6AA_open_ifak
 				{
 					displayName="Open CTM Drug Resupply";
-					condition="(QUOTE(call ace_common_fnc_isMedic && 'l6AA_DRUGS' in (items player))";
-					statement= QUOTE(call FUNC(DRUGS));
+					condition="(_player call ace_common_fnc_isMedic && 'l6AA_DRUGS' in (items player))";
+					statement="_player call FUNC(DRUGS))";
 					icon="z\l6AA\addons\medkits\data\ifak_interaction.paa";
 				};
 				class l6AA_open_DRUGS2 : l6AA_open_ifak
 				{
 					displayName="Open CMT Drug Resupply";
-					condition="(QUOTE(call ace_common_fnc_isMedic && 'l6AA_DRUGS2' in (items player))";
-					statement= QUOTE(call FUNC(DRUGS2));
+					condition="(_player call ace_common_fnc_isMedic && 'l6AA_DRUGS2' in (items player))";
+					statement="_player call FUNC(DRUGS2))";
 					icon="z\l6AA\addons\medkits\data\ifak_interaction.paa";
 				};
 				class l6AA_open_CONSUMABLES : l6AA_open_ifak
 				{
 					displayName="Open CTM Consumable Resupply";
-					condition="(QUOTE(call ace_common_fnc_isMedic && 'l6AA_CONSUMABLES' in (items player))";
-					statement= QUOTE(call FUNC(CONSUMABLES));
+					condition="(_player call ace_common_fnc_isMedic && 'l6AA_CONSUMABLES' in (items player))";
+					statement="_player call FUNC(CONSUMABLES))";
 					icon="z\l6AA\addons\medkits\data\ifak_interaction.paa";
 				};
 				class l6AA_open_CONSUMABLES2 : l6AA_open_ifak
 				{
 					displayName="Open CMT Consumable Resupply";
-					condition="(QUOTE(call ace_common_fnc_isMedic && 'l6AA_CONSUMABLES2' in (items player))";
-					statement= QUOTE(call FUNC(CONSUMABLES2));
+					condition="(_player call ace_common_fnc_isMedic && 'l6AA_CONSUMABLES2' in (items player))";
+					statement="_player call FUNC(CONSUMABLES2))";
 					icon="z\l6AA\addons\medkits\data\ifak_interaction.paa";
 				};
 				class l6AA_open_BANDAGES : l6AA_open_ifak
 				{
 					displayName="Open Bandage Resupply";
-					condition="(QUOTE(call ace_common_fnc_isMedic && 'l6AA_BANDAGES' in (items player))";
-					statement= QUOTE(call FUNC(BANDAGES));
+					condition="(_player call ace_common_fnc_isMedic && 'l6AA_BANDAGES' in (items player))";
+					statement="_player call FUNC(BANDAGES))";
 					icon="z\l6AA\addons\medkits\data\ifak_interaction.paa";
 				};
 				class l6AA_open_CAP : l6AA_open_ifak
 				{
 					displayName="Open CAP Supplies kit";
-					condition="(QUOTE(call ace_common_fnc_isMedic && 'l6AA_CAP' in (items player))";
-					statement= QUOTE(call FUNC(CAP));
+					condition="(_player call ace_common_fnc_isMedic && 'l6AA_CAP' in (items player))";
+					statement="_player call FUNC(CAP)";
 					icon="z\l6AA\addons\medkits\data\ifak_interaction.paa";
 				};
 			};
@@ -105,7 +105,7 @@ class CfgVehicles {
 				displayName="Open Emergency Aid Kit";
 				condition="('l6AA_IFAK' in (items _target))";
 				exceptions[]={};
-				statement="_target QUOTE(call FUNC(IFAK))";
+				statement="_target call FUNC(IFAK)";
 				icon="z\l6AA\addons\medkits\data\basicTrauma.paa";
 				};
 			};
