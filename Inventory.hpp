@@ -7,7 +7,7 @@ class CfgWeapons
 	{
 		scope=2;
 		author="A/Cpl Z Smith and 4 Rifles Milsim";
-		picture="\l6AA_medkits\data\Medic_Pouch.paa";
+		picture="z\l6AA\addons\l6AA_medkits\data\Medic_Pouch.paa";
 		displayName="Emergency Aid Kit";
 		descriptionShort="This is for use on others! Open it using the ACE interaction menu, and stabilise your friends, you may also be required to open this to treat yourself.";
 		descriptionUse="";
@@ -20,7 +20,7 @@ class CfgWeapons
 	{
 		scope=2;
 		author="A/Cpl Z Smith and 4 Rifles Milsim";
-		picture="\l6AA_medkits\data\basicTrauma.paa";
+		picture="z\l6AA\addons\l6AA_medkits\data\basicTrauma.paa";
 		displayName="Individual Trauma Kit";
 		descriptionShort="For ease of resupply, this will give you enough to treat a wound.";
 		descriptionUse="";
@@ -33,7 +33,7 @@ class CfgWeapons
 	{
 		scope=2;
 		author="A/Cpl Z Smith and 4 Rifles Milsim";
-		picture="\l6AA_medkits\data\EAK.paa";
+		picture="z\l6AA\addons\l6AA_medkits\data\EAK.paa";
 		displayName="Surgical Fractures Kit";
 		descriptionShort="This is a Complex Fracture treatment kit. Contains: 1x Scalpel, 1x Retractor, 1x Bone Plate, 1x Clamp, 1x Saline 250mL, 1x Set of Surgery drugs.";
 		descriptionUse="";
@@ -46,7 +46,7 @@ class CfgWeapons
 	{
 		scope=2;
 		author="A/Cpl Z Smith and 4 Rifles Milsim";
-		picture="\l6AA_medkits\data\EAK.paa";
+		picture="z\l6AA\addons\l6AA_medkits\data\EAK.paa";
 		displayName="Transfusion Kit";
 		descriptionShort="This is a Transfusion Kit for CMTs. Contains: 1x 16g IV, 1x FAST IO, 1x Plasma 500ml, 2x Saline 1000ml, 1x Nitroglycerin";
 		descriptionUse="";
@@ -59,7 +59,7 @@ class CfgWeapons
 	{
 		scope=2;
 		author="A/Cpl Z Smith and 4 Rifles Milsim";
-		picture="\l6AA_medkits\data\EAK.paa";
+		picture="z\l6AA\addons\l6AA_medkits\data\EAK.paa";
 		displayName="CTM Drug Resupply Kit";
 		descriptionShort="This is a resupply kit for CTMs. Contains: 2x Epi, 2x Morphine, 2x Naloxone, 1x Painkillers, 1x Penthrox Inhaler";
 		descriptionUse="";
@@ -72,7 +72,7 @@ class CfgWeapons
 	{
 		scope=2;
 		author="A/Cpl Z Smith and 4 Rifles Milsim";
-		picture="\l6AA_medkits\data\MASCAS.paa";
+		picture="z\l6AA\addons\l6AA_medkits\data\MASCAS.paa";
 		displayName="Mass Casualty Kit";
 		descriptionShort="For those situations where you need a lot of medical supplies, and quickly!";
 		descriptionUse="";
@@ -85,7 +85,7 @@ class CfgWeapons
 	{
 		scope=2;
 		author="A/Cpl Z Smith and 4 Rifles Milsim";
-		picture="\l6AA_medkits\data\EAK.paa";
+		picture="z\l6AA\addons\l6AA_medkits\data\EAK.paa";
 		displayName="CMT Drug Resupply Kit";
 		descriptionShort="This is a resupply kit for CMTs. Contains: 3x TXA, 2x Epi, 3x Morphine. 2x Naloxone, 2x EACA, 2x Phenylephrine, 2x Lidocaine, 2x Adenosine, 3x Fentanyl, 1x Penthrox Inhaler, 1x Ammonium carbonate.";
 		descriptionUse="";
@@ -98,7 +98,7 @@ class CfgWeapons
 	{
 		scope=2;
 		author="A/Cpl Z Smith and 4 Rifles Milsim";
-		picture="\l6AA_medkits\data\EAK.paa";
+		picture="z\l6AA\addons\l6AA_medkits\data\EAK.paa";
 		displayName="CTM Medical Resupply Kit";
 		descriptionShort="This is a resupply kit for CTMs. Contains: 4x Geudel Tube, 2x SAM Splint, 2x Chest Seals, 2x NCD l6AA_medkits,";
 		descriptionUse="";
@@ -111,7 +111,7 @@ class CfgWeapons
 	{
 		scope=2;
 		author="A/Cpl Z Smith and 4 Rifles Milsim";
-		picture="\l6AA_medkits\data\EAK.paa";
+		picture="z\l6AA\addons\l6AA_medkits\data\EAK.paa";
 		displayName="CMT Medical Resupply Kit";
 		descriptionShort="This is a resupply kit for CMTs. Contains: 4x King LT, 4x SAM Splint, 20x Sutures, 4x Chest Seals, 2x NCD l6AA_medkits, 2x AAT l6AA_medkits, and 1 Field Blood Transfusion Kit";
 		descriptionUse="";
@@ -124,7 +124,7 @@ class CfgWeapons
 	{
 		scope=2;
 		author="A/Cpl Z Smith and 4 Rifles Milsim";
-		picture="\l6AA_medkits\data\EAK.paa";
+		picture="z\l6AA\addons\l6AA_medkits\data\EAK.paa";
 		displayName="Bandage Resupply Kit";
 		descriptionShort="This is a resupply kit for bandages. Contains: 15x Packing, 15x Elastic, 15x QuickClots";
 		descriptionUse="";
@@ -137,7 +137,7 @@ class CfgWeapons
 	{
 		scope=2;
 		author="A/Cpl Z Smith and 4 Rifles Milsim";
-		picture="\l6AA_medkits\data\EAK.paa";
+		picture="z\l6AA\addons\l6AA_medkits\data\EAK.paa";
 		displayName="CAP Supplies Kit";
 		descriptionShort="For setting up a CAP";
 		descriptionUse="";
