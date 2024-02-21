@@ -62,7 +62,7 @@ class CfgVehicles {
 				class l6AA_open_DRUGS2 : l6AA_open_ifak
 				{
 					displayName="Open CMT Drug Resupply";
-					condition="(_player call ace_common_fnc_isMedic && 'l6AA_DRUGS2' in (items player))";
+					condition="([player, 2] call ace_medical_treatment_fnc_isMedic && 'l6AA_DRUGS2' in (items player))";
 					statement="_player call FUNC(DRUGS2))";
 					icon="\z\l6AA\addons\medkits\data\ifak_interaction.paa";
 				};
@@ -76,7 +76,7 @@ class CfgVehicles {
 				class l6AA_open_CONSUMABLES2 : l6AA_open_ifak
 				{
 					displayName="Open CMT Consumable Resupply";
-					condition="(_player call ace_common_fnc_isMedic && 'l6AA_CONSUMABLES2' in (items player))";
+					condition="([player, 2] call ace_medical_treatment_fnc_isMedic && 'l6AA_CONSUMABLES2' in (items player))";
 					statement="_player call FUNC(CONSUMABLES2))";
 					icon="\z\l6AA\addons\medkits\data\ifak_interaction.paa";
 				};
@@ -90,7 +90,7 @@ class CfgVehicles {
 				class l6AA_open_CAP : l6AA_open_ifak
 				{
 					displayName="Open CAP Supplies kit";
-					condition="(_player call ace_common_fnc_isMedic && 'l6AA_CAP' in (items player))";
+					condition="([player, 2] call ace_medical_treatment_fnc_isMedic && 'l6AA_CAP' in (items player))";
 					statement="_player call FUNC(CAP)";
 					icon="\z\l6AA\addons\medkits\data\ifak_interaction.paa";
 				};
