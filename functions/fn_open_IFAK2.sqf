@@ -1,5 +1,4 @@
-_this removeItem 'l
-6AA_IFAK2';
+_this removeItem 'l6AA_IFAK2';
 _this addItem 'ACE_packingBandage';
 _this addItem 'ACE_packingBandage';
 _this addItem 'ACE_packingBandage';
