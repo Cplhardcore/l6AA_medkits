@@ -4,7 +4,7 @@ class CfgFunctions
 	{
 		class functions
 		{
-		file="\medkits\functions";
+		file="\z\medkits\functions";
 			class open_Surgery {};
 			class open_Transfusion {};
 			class open_DRUGS {};
