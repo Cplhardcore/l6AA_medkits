@@ -4,7 +4,7 @@ class CfgFunctions
 	{
 		class functions
 		{
-		file="\z\l6AA\addons\medkits\functions";
+		file="z\l6AA\addons\medkits\functions";
 			class open_Surgery {};
 			class open_Transfusion {};
 			class open_DRUGS {};
