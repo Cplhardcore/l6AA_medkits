@@ -54,6 +54,6 @@ class CfgPatches
 };
 
 
-#include "Functions.hpp"
+#include "CfgFunctions.hpp"
 #include "Inventory.hpp"
 #include "i6AAPlayer.hpp"
