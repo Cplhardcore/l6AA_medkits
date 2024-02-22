@@ -1,3 +1,5 @@
+#define QUOTE(var1) #var1
+
 class CfgVehicles {
 	class Man;
 	class CAManBase: Man
@@ -69,7 +71,7 @@ class CfgVehicles {
 				class l6AA_open_CONSUMABLES : l6AA_open_ifak
 				{
 					displayName="Open CTM Consumable Resupply";
-					condition= (_player call ace_common_fnc_isMedic && 'l6AA_CONSUMABLES' in (items player))";
+					condition= "(_player call ace_common_fnc_isMedic && 'l6AA_CONSUMABLES' in (items player))";
 					statement= QUOTE(_player call FUNC(open_CONSUMABLES));
 					icon="\z\l6AA\addons\medkits\data\ifak_interaction.paa";
 				};
